@@ -1,0 +1,17 @@
+framework: jasmine
+
+postMerge:
+  pattern:
+    - "**/*[sS]pec.{js,mjs}"
+preMerge:
+  pattern:
+    - "**/*[sS]pec.{js,mjs}"
+
+preRun:
+     command:
+        - npm install
+
+smartRun: false
+
+configFile: "spec/support/jasmine.json"
+version: 1.0.0
