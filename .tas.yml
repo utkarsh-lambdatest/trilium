@@ -3,7 +3,7 @@ framework: jasmine
 postMerge:
   pattern:
     - "spec/**/*[sS]pec.{js,mjs}"
-    
+
 preMerge:
   pattern:
     - "spec/**/*[sS]pec.{js,mjs}"
@@ -16,4 +16,5 @@ preRun:
 smartRun: false
 
 configFile: "spec/support/jasmine.json"
+
 version: 1.0.0
