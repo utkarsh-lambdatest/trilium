@@ -10,6 +10,7 @@ preMerge:
 preRun:
      command:
         - npm install
+        - npm run start-server &
 
 smartRun: false
 
