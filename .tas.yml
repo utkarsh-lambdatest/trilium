@@ -3,6 +3,7 @@ framework: jasmine
 postMerge:
   pattern:
     - "spec/**/*[sS]pec.{js,mjs}"
+    
 preMerge:
   pattern:
     - "spec/**/*[sS]pec.{js,mjs}"
