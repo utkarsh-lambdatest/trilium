@@ -17,4 +17,4 @@ smartRun: false
 
 configFile: "spec/support/jasmine.json"
 
-version: 1.0.1
+version: 1.0.0
